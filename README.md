@@ -10,29 +10,17 @@ Para ejecutar este proyecto, sigue los siguientes pasos:
    cd <NOMBRE_DEL_REPOSITORIO>
    ```
 
-2. **Instalar Node.js y npm**
-   Si no tienes Node.js y npm instalados, sigue estos pasos:
-   - Descarga e instala Node.js desde su sitio oficial: [https://nodejs.org/](https://nodejs.org/).
-   - Verifica que están correctamente instalados ejecutando los siguientes comandos:
-     ```bash
-     node -v
-     npm -v
-     ```
-     Esto debería mostrar las versiones instaladas de Node.js y npm.
-
-3. **Instalar dependencias**
+2. **Instalar dependencias**
    Una vez tengas Node.js y npm instalados, ejecuta:
    ```bash
    npm install
    ```
 
-4. **Iniciar el servidor de desarrollo**
+3. **Iniciar el servidor de desarrollo**
    Una vez instaladas las dependencias, inicia el servidor de desarrollo con:
    ```bash
    npm run dev
    ```
-   El proyecto estará disponible en [http://localhost:5173](http://localhost:5173).
-
 ---
 
 ## Funcionalidades implementadas
@@ -59,14 +47,8 @@ Para ejecutar este proyecto, sigue los siguientes pasos:
 2. **Consumo de API con Axios**
    - Se utilizó Axios para realizar peticiones HTTP debido a su simplicidad y manejo de promesas.
 
-3. **Bootstrap para el diseño**
-   - Se eligió Bootstrap como framework de CSS para acelerar el desarrollo de una interfaz responsiva y atractiva.
-
-4. **Uso de CSS personalizado**
-   - Se aplicaron estilos adicionales con CSS para ajustes específicos que no se podían lograr fácilmente con Bootstrap.
-
-5. **Organización de componentes**
+3. **Organización de componentes**
    - El proyecto está estructurado con componentes reutilizables para facilitar la mantenibilidad y escalabilidad.
 
-6. **Rutas dinámicas**
+4. **Rutas dinámicas**
    - Se configuraron rutas dinámicas para mostrar las publicaciones de cada usuario en páginas separadas.
